@@ -1,0 +1,108 @@
+body{
+background: url(../img/main.png) no-repeat ;
+background-size: 100%;
+font: 400 12px/1.2 'Arial', sans-serif;
+color: #9EABAD;
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+	padding-top:50px;
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+	height: 40px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-payment-form{
+	background: #F4F4F4;
+	max-width: 461px;
+	max-height: 470px;
+	margin: 0 auto;
+	padding: 25px 30px 30px 30px;
+	}
+.ba-payment-form__client{
+	font-family: Arial;
+	color: #1b1c1d;
+	font-size: 24px;
+	font-weight: 700;
+}
+a{
+	color: #e52e66;
+	text-decoration: none;
+}
+.ba-form-row + .ba-form-row{
+	margin-top: 15px;
+}
+input[type="text"],
+input[type="email"]{
+	width: 193px;
+}
+input[type="email"],
+input[type="password"]{
+	width: 400px;
+}
+button{
+	background-color: #ea355a;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	width: 400px;
+	height: 50px;
+	margin-bottom: 15px;
+
+}
+h3{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+.ba-payment-form__body
+
