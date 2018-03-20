@@ -47,6 +47,7 @@ select {
 	border-radius: 4px;
 	background-color: #f0f0f0;
 	height: 40px;
+
 }
 
 input[type="text"]:focus,
@@ -64,9 +65,10 @@ textarea {
 .ba-payment-form{
 	background: #F4F4F4;
 	max-width: 461px;
-	max-height: 470px;
+
 	margin: 0 auto;
-	padding: 25px 30px 30px 30px;
+	padding: 25px 30px 60px 30px;
+	border-radius: 4px;
 	}
 .ba-payment-form__client{
 	font-family: Arial;
@@ -95,14 +97,19 @@ button{
 	width: 400px;
 	height: 50px;
 	margin-bottom: 15px;
+	border-radius: 4px;
 
 }
-h3{
+span{
 	font-family: Arial;
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 700;
 	text-align: center;
 }
-.ba-payment-form__body
-
+.ba-form-row-line{
+	display: flex;
+}
+.ba-payment-form__total-lable{
+	margin-bottom: 35px;
+}
